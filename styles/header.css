@@ -1,0 +1,65 @@
+/* Header */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@font-face {
+    font-family: minhaFonte;
+    src: url(Bohem\ Vintage.ttf);
+  }
+  
+  header {
+    font-family: minhaFonte;
+    /* width: 100%; */
+    height: 4.375rem;
+    background-color: #e4a73d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #92360d;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #402e22;
+    font-size: 1.563rem;
+    margin: 0.938rem;
+    transition: 2s all;
+    position: relative;
+  }
+  
+  header a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px 20px 20px 2px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+  }
+  
+  header a:hover::after {
+    width: 75%;
+  }
+  
+  header div {
+    display: flex;
+    /* margin: 0px 60px; */
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .burguersvg {
+    width: 100px;
+    height: 70px;
+  }
+  
+  #faleconosco {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* FIM Header */

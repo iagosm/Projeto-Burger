@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./video.css);
+@import url(./button.css);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 @font-face {
     font-family: minhaFonte;
@@ -21,10 +22,128 @@ body {
   box-sizing: border-box;
 }
 
+/* Cardapio abaixo do video */
+
+.catalogo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 1565px;
+  height: 166px;
+  background-color: #92360D;
+  margin: 0 auto;
+  margin-top: 115px;
+  border-radius: 70px 70px 9px 9px;
+}
+
+.catalogo a{
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  position: relative;
+}
+
+.catalogo a::after{
+  content: " ";
+  background-color: #e4a73d;
+  border-radius: 2px 20px 20px 2px;
+  width: 0%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.catalogo a:hover{
+  color: #e4a73d;
+  background-color: #92360d;
+}
+
+.catalogo a:hover::after{
+  width: 75%;
+}
+/* Fim do Cardapio abaixo do video */
+
+.categoria{
+  display: inline-block;
+  margin-top: 19px;
+  margin-left: 198px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+
+.categoria{
+  font-size: 1.875rem;
+  font-weight: 700;
+  border-bottom: 2px solid #E5B52F;
+}
 
 
+.grid-container{
+  display: flex;
+  gap: 40px;
+  /* tirar o que ta acima */
+  margin-top: 18px;
+  margin-bottom: 13px;
+  margin-left: 206px;
+}
 
+.grid-burguer{
+  width: 300px;
+  height: 374px;
+  background-color: #FFFFFF;
+  margin-top: 4px;
+  padding: 4px;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  padding-bottom: 19px;
+}
 
+.imagem-destaque{
+  margin-top: 4px;
+  margin: 5px;
+}
+
+.titulo-destaque h3{
+  color: #374151;
+  margin-left: 16px;
+  margin-top: 19px;
+}
+
+.titulo-destaque p{
+  margin-left: 16px;
+  margin-top: 13px;
+  color: #6B7280;
+}
+
+.valor-destaque{
+  align-items: center;
+  text-align: center;
+  margin-left: 16px;
+  margin-top: 30px;
+  display: flex;
+  
+}
+
+.valor-destaque p{
+  margin-right: 9px;
+}
+
+.destaque{
+  color: #10B981;
+}
+
+.valor-promo{
+  font-weight: lighter;
+  font-size: 11px;
+  text-decoration: line-through;
+  color: #6B7280;
+}
 /* Media Scren */
 
 @media (max-width:900px) {

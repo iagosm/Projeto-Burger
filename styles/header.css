@@ -55,11 +55,5 @@
     height: 70px;
   }
   
-  #faleconosco {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-  }
   
   /* FIM Header */

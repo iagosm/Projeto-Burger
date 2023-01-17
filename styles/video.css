@@ -30,7 +30,7 @@
       left: 0;
       background-color: black;
       width: 100%;
-      height: 99.7%;
+      height: 100%;
       opacity: 0.5;
       z-index: 10;
     }
@@ -42,7 +42,7 @@
       gap: 80px;
       /* font-size: 40px; */
       position: absolute;
-      top: 150px;
+      top: 30px;
       /* left: 0; */
       z-index: 12;
       color: #e4a73d;
@@ -53,14 +53,14 @@
 
     
     .textovideo h1{
-      font-size: 50px;
-      border-bottom: 2px solid #e4a73d;
+      font-size: 70px;
+     border-bottom: 2px solid #e4a73d;
       border-radius: 2px 20px 20px 2px;
     }
    
     .textovideo h2{
       margin: 0 auto;
-      font-size: 2.5rem;
+      font-size: 3.125rem;
     }
 
     .textovideo h2::after{
@@ -71,7 +71,7 @@
     }
 
     .textovideo h3{
-      font-size: 45px;
+      font-size: 2.813rem;
     }
   
   /* fim video */

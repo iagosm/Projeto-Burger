@@ -8,6 +8,7 @@
 }
   
   .search{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +20,7 @@
    }
   
   .search-box input{
+    font-family: 'Poppins', sans-serif;
    background-color: #F9FAFB;
    padding: 10px;
    font-size: 30px;

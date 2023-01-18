@@ -1,0 +1,47 @@
+footer{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    background-color: #E4A73D;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #374151;
+}
+
+.menu-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 1rem; */
+    margin-right: 40px;
+}
+
+.container-menu{
+    display: flex;
+    gap: 1rem
+}
+
+.card-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}

@@ -39,10 +39,10 @@
       font-family: minhaFonte;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 0.625rem;
       /* font-size: 40px; */
       position: absolute;
-      top: 10px;
+      top: 0.625rem;
       /* left: 0; */
       z-index: 12;
       color: #e4a73d;
@@ -53,7 +53,7 @@
 
     
     .textovideo h1{
-      font-size: 100px;
+      font-size: 6.25rem;
       border-bottom: 2px solid #e4a73d;
       border-radius: 2px 20px 20px 2px;
     }

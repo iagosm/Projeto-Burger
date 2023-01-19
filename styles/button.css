@@ -1,7 +1,7 @@
 /* Começo botão buscar lanches */
 .search-box{
     margin: 0 auto;
-    margin-top: 44px;
+    margin-top: 2.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,8 +22,8 @@
   .search-box input{
     font-family: 'Poppins', sans-serif;
    background-color: #F9FAFB;
-   padding: 10px;
-   font-size: 30px;
+   padding: 0.625rem;
+   font-size: 1.875rem;
    outline: none;
    border: none;
   }
@@ -31,7 +31,7 @@
   .search-box a img{
     border-left: 1px solid #92360D;
     padding-left: 8px;
-    height: 40px;
+    height: 2.5rem;
   }
   
   /* Fim botão de buscar lanche */

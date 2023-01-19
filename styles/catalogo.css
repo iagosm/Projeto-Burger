@@ -6,11 +6,11 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    width: 1801px;
-    height: 123px;
+    width: 112.563rem;
+    height: 7.688rem;
     background-color: #92360D;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 0.313rem;
     border-radius: 70px 70px 9px 9px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -19,9 +19,9 @@
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
-    line-height: 48px;
+    line-height: 3rem;
     position: relative;
   }
   
@@ -30,7 +30,7 @@
     background-color: #e4a73d;
     border-radius: 2px 20px 20px 2px;
     width: 0%;
-    height: 4px;
+    height: 0.25rem;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -49,10 +49,10 @@
   
   .categoria{
     display: inline-block;
-    margin-top: 29px;
-    margin-left: 198px;
-    padding-bottom: 4px;
-    padding-right: 8px;
+    margin-top: 1.813rem;
+    margin-left: 12.375rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.5rem;
     font-family: 'Poppins', sans-serif;
   }
   
@@ -66,32 +66,32 @@
   
   .grid-container-destaque{
     display: grid;
-    gap: 12px;
+    gap: 2rem;
     grid-template-columns: repeat(auto-fit, 304px);
-    margin-top: 18px;
-    margin-bottom: 13px;
-    margin-left: 206px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.813rem;
+    margin-left: 12.875rem;
   }
 
   .grid-container-destaque-hamburguer{
     display: grid;
     gap: 12px 130px;
     grid-template-columns: repeat(auto-fit, 374px);
-    margin-top: 18px;
-    margin-bottom: 13px;
-    margin-left: 206px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.813rem;
+    margin-left: 12.875rem;
   }
   
   .grid-burguer{
     font-family: 'Poppins', sans-serif;
-    width: 300px;
-    height: 374px;
+    width: 18.75rem;
+    height: 23.375rem;
     background-color: #FFFFFF;
-    margin-top: 4px;
-    padding: 4px;
+    margin-top: 0.25rem;
+    padding: 0.25rem;
     border: 1px solid #E0E0E0;
     border-radius: 5px;
-    padding-bottom: 19px;
+    padding-bottom: 1.188rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
@@ -107,22 +107,22 @@
   }
   
   .titulo-destaque p{
-    margin-left: 16px;
-    margin-top: 13px;
+    margin-left: 1rem;
+    margin-top: 0.813rem;
     color: #6B7280;
   }
   
   .valor-destaque{
     align-items: center;
     text-align: center;
-    margin-left: 16px;
-    margin-top: 9px;
+    margin-left: 1rem;
+    margin-top: 0.563rem;
     display: flex;
     
   }
   
   .valor-destaque p{
-    margin-right: 9px;
+    margin-right: 0.563rem;
   }
   
   .destaque{
@@ -131,13 +131,13 @@
   
   .valor-promo{
     font-weight: lighter;
-    font-size: 11px;
+    font-size: 0.688rem;
     text-decoration: line-through;
     color: #6B7280;
   }
   
   .carrinho{
-    margin-left: 130px;
+    margin-left: 8.125rem;
   }
   
   .grid-hamburguer{
@@ -150,8 +150,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 458px;
-    height: 154px;
+    width: 28.625rem;
+    height: 9.625rem;
     padding: 1rem;
     gap: 0.75rem;
   }
@@ -168,7 +168,7 @@
   
   .detalhe ul li{
     /* margin-bottom: 1px; */
-    font-size: 12px;
+    font-size: 0.75rem;
     list-style: none;
     color: #6B7280;
   }
@@ -181,7 +181,7 @@
   }
   
   .valor p{
-    margin-top: 10px;
+    margin-top: 0.625rem;
    color: #10B981;
   }
   

@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://www.dafontfree.net/embed/bW9udHNlcnJhdC1leHRyYS1ib2xkJmRhdGEvMTYvbS83ODYzMy9Nb250c2VycmF0LUV4dHJhQm9sZC5vdGY" rel="stylesheet" type="text/css"/>
     <title>Burger</title>
 </head>
 <body>
+    
+    <div id="progress">
+        <span id="progress-value">&#x1F815</span>
+    </div>
     <header>
         <div >
             <img class="burguersvg" src="assets/burguer.svg" alt="Hambúrguer Animado">
-            <h1>Burger Food</h1>
-        </div>
-        <div >
-            <a href="#">Cardápio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Localização</a>
+            <p>Burger Food</p>
         </div>
         <div class="faleconosco">
+            <a href="#categoria">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#location">Localização</a>
             <a href="#">Fale Conosco</a>
         </div>
     </header>
@@ -36,10 +39,10 @@
 </section>
 
 <div class="catalogo">
-    <a href="#">Bebida</a>
-    <a href="#">Hambúrguer</a>
-    <a href="#">Sobremesa</a>
-    <a href="#">Batata-Frita</a>
+    <a href="#bebida">Bebida</a>
+    <a href="#hamburguer">Hambúrguer</a>
+    <a href="#sobremesa">Sobremesa</a>
+    <a href="#batata">Batata-Frita</a>
 </div>
 
 <div class="search-box">
@@ -49,7 +52,7 @@
     </div>
 </div>
 
-    <p class="categoria">Destaque</p>
+    <p class="categoria" id="categoria">Destaque</p>
 
 <div class="grid-container-destaque">
     <div class="grid-burguer">
@@ -81,7 +84,7 @@
         <div class="valor-destaque">
             <p class="destaque">R$35,90</p>
             <p class="valor-promo">R$57,90</p>
-            <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            <a href="#" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
         </div>
             </div>
 
@@ -122,7 +125,7 @@
 
 <!-- Hamburguer -->
 
-<p class="categoria hamburguer">Hambúrguer</p>
+<p class="categoria hamburguer" id="hamburguer">Hambúrguer</p>
 
 <div class="grid-container-destaque-hamburguer">
 
@@ -207,7 +210,7 @@
 </div>
 <!-- inicio de outro -->
 
-<p class="categoria hamburguer">Sobremesa</p>
+<p class="categoria hamburguer" id="sobremesa">Sobremesa</p>
 
 <div class="grid-container-destaque-hamburguer">
 
@@ -233,7 +236,7 @@
 
 <!-- inicio de outro -->
 
-<p class="categoria hamburguer">Bebida</p>
+<p class="categoria hamburguer" id="bebida">Bebida</p>
 
 <div class="grid-container-destaque-hamburguer">
 
@@ -258,7 +261,32 @@
 </div>
 <!-- Fim bebida -->
 
-<p class="sobre">Sobre</p>
+<p class="categoria hamburguer" id="batata">Batata-Frita</p>
+
+<div class="grid-container-destaque-hamburguer">
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Hambúrguer de Frango</h3>
+            <ul>
+                <li>Pão australiano</li>
+                <li>carne 180g</li>
+                <li>disco de catupiry empanado</li>
+                <li>salada de alface</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/doce.png" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- Fim batata -->
+<h2 class="sobre" id="sobre">Sobre</h2>
 
 <div class="sobre-div">
     <img src="assets/restaurante.png" alt="" class="restaurante">
@@ -286,42 +314,27 @@
     </div>
 </div>
 
-<p class="location">Localização</p>
+<p class="location" id="location">Localização</p>
 <p class="location-texto">R. Odilon Santos, 42 - Rio Vermelho, Salvador - BA, 41940-350</p>
 <div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3383767358214!2d-38.48982598463764!3d-13.014110864192048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160352f5d8fd6d%3A0xff1077e2c2424c67!2sR.%20Odilon%20Santos%2C%2042%20-%20Rio%20Vermelho%2C%20Salvador%20-%20BA%2C%2041940-350!5e0!3m2!1spt-BR!2sbr!4v1674050939061!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <footer>
-    <div class="menu-footer">
-        <div class="container-menu">
-            <div class="card-menu">
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-            </div>
-    
-            <div class="card-menu">
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-                <a href="">Qualidade atendimento</a>
-            </div>
-        </div>
-        
-        <div class="copy">
-            <div><img src="assets/copyright.svg" alt="">
-                <p>2023. Todos os direitos reservados</p>
-            </div>
-        </div>
-        
-        <div class="social">
-                <a href=""><img src="assets/github.svg" alt=""></a>
-                <a href=""><img src="assets/linkedin.svg" alt=""></a>
-            </div>
+    <div class="social">
+        <a href="https://github.com/iagosm" target="_blank"><img src="assets/github.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/iago-sousa-204950231/" target="_blank"><img src="assets/linkedin.svg" alt=""></a>
+        <a href="https://www.instagram.com/iagosousa14/" target="_blank"><img src="assets/instagram.svg" alt=""></a>
     </div>
-
+    <div class="sessao">
+        <a href="#categoria">Cardápio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#location">Localização</a>
+    </div>
+    <div class="copy">
+        <img src="assets/copyright.svg" alt="">
+        <p>2023 Feito por Iagosm</p>
+    </div>
 </footer>
 
 <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>

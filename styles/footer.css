@@ -1,47 +1,78 @@
 footer{
     font-family: 'Poppins', sans-serif;
-    padding: 1rem;
+    height: 60px;
+    padding: 0 10px;
     background-color: #E4A73D;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer a {
-    font-size: 14px;
+
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
-    color: #374151;
+    color: #402e22;
+    /* padding: 0px 10px; */
 }
 
-.menu-footer{
-    display: flex;
-    /* justify-content: space-between; */
-    /* padding: 1rem; */
-    margin-right: 40px;
+/* footer div{
+    width: ;
+} */
+
+.sessao a::after {
+    content: " ";
+    width: 0%;
+    height: 0.25rem;
+    background-color: black;
+    border-radius: 2px 20px 20px 2px;
+    position: absolute;
+    bottom: -0.275rem;
+    left: 2px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .sessao a:hover::after {
+    width: 65%;
+  }
+
+  .sessao a{
+    padding-right: 10px;
+    position: relative;
+    color: #402e22;
 }
 
-.container-menu{
-    display: flex;
-    gap: 1rem
-}
-
-.card-menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sessão {
+    margin: 0 10px;
+    color: #402e22;
+ 
 }
 
 .copy{
+    margin: 0 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    /* gap: 3px; */
+    /* margin-left: 6rem; */
 }
 
-.copy div{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.copy p{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #402e22;
+    padding-left: 10px;
 }
 
 .social{
+    width: 270px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    margin-top: 7px;
+}
+
+.social a{
+    padding-right: 10px;
 }

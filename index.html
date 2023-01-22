@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://www.dafontfree.net/embed/bW9udHNlcnJhdC1leHRyYS1ib2xkJmRhdGEvMTYvbS83ODYzMy9Nb250c2VycmF0LUV4dHJhQm9sZC5vdGY" rel="stylesheet" type="text/css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/Hamburger-cuate.svg" type="image/x-icon">
     <title>Burger</title>
 </head>
 <body>
-    
-    <div id="progress">
+    <script>AOS.init();</script>
+    <div id="progress" data-aos="zoom-in-up">
         <span id="progress-value">&#x1F815</span>
     </div>
     <header>
@@ -26,7 +28,7 @@
         </div>
     </header>
 
-<section class="videobg">
+    <section class="videobg">
     <div class="overlay"></div>
     <video autoplay muted loop>
         <source src="assets/burger.mp4" type="video/mp4">
@@ -45,16 +47,16 @@
     <a href="#batata">Batata-Frita</a>
 </div>
 
-<div class="search-box">
+<div class="search-box" data-aos="fade-up">
     <div class="search">
         <input type="search" name="" id="" placeholder="Pesquise seu lanche!">
         <a href="search-box"><img src="assets/search.svg" alt=""></a>
     </div>
 </div>
 
-    <p class="categoria" id="categoria">Destaque</p>
+    <p class="categoria" id="categoria" data-aos="fade-right">Destaque</p>
 
-<div class="grid-container-destaque">
+<div class="grid-container-destaque" data-aos="fade-up">
     <div class="grid-burguer">
 <div class="imagem-destaque">
     <img src="assets/destaque.png" alt="">
@@ -125,9 +127,9 @@
 
 <!-- Hamburguer -->
 
-<p class="categoria hamburguer" id="hamburguer">Hambúrguer</p>
+<p class="categoria hamburguer" id="hamburguer" data-aos="fade-right">Hambúrguer</p>
 
-<div class="grid-container-destaque-hamburguer">
+<div class="grid-container-destaque-hamburguer" data-aos="fade-up">
 
     <div class="grid-hamburguer">
         <div class="detalhe">
@@ -144,7 +146,7 @@
             </div>
         </div>
         <div>
-            <img src="assets/doce.png" alt="">
+            <img src="assets/hamburguer.png" alt="">
         </div>
     </div>
 
@@ -163,27 +165,7 @@
             </div>
         </div>
         <div>
-            <img src="assets/doce.png" alt="">
-        </div>
-    </div>
-
-
-    <div class="grid-hamburguer">
-        <div class="detalhe">
-            <h3>Hambúrguer de Frango</h3>
-            <ul>
-                <li>Pão australiano</li>
-                <li>carne 180g</li>
-                <li>disco de catupiry empanado</li>
-                <li>salada de alface</li>
-            </ul>
-            <div class="valor">
-                <p>R$ 35,00</p>
-                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
-            </div>
-        </div>
-        <div>
-            <img src="assets/doce.png" alt="">
+            <img src="assets/hamburguer.png" alt="">
         </div>
     </div>
 
@@ -203,25 +185,45 @@
             </div>
         </div>
         <div>
-            <img src="assets/doce.png" alt="">
+            <img src="assets/hamburguer.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Hambúrguer de Frango</h3>
+            <ul>
+                <li>Pão australiano</li>
+                <li>carne 180g</li>
+                <li>disco de catupiry empanado</li>
+                <li>salada de alface</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/hamburguer.png" alt="">
         </div>
     </div>
 
 </div>
 <!-- inicio de outro -->
 
-<p class="categoria hamburguer" id="sobremesa">Sobremesa</p>
+<p class="categoria hamburguer" id="sobremesa" data-aos="fade-right">Sobremesa</p>
 
-<div class="grid-container-destaque-hamburguer">
+<div class="grid-container-destaque-hamburguer" data-aos="fade-up"> 
 
     <div class="grid-hamburguer">
         <div class="detalhe">
-            <h3>Hambúrguer de Frango</h3>
+            <h3>Cupcake</h3>
             <ul>
-                <li>Pão australiano</li>
-                <li>carne 180g</li>
-                <li>disco de catupiry empanado</li>
-                <li>salada de alface</li>
+                <li>3 gemas</li>
+                <li>250 ml de leite</li>
+                <li>1 xícara de óleo</li>
+                <li>Recheio e cobertura  doce de leite</li>
             </ul>
             <div class="valor">
                 <p>R$ 35,00</p>
@@ -230,19 +232,38 @@
         </div>
         <div>
             <img src="assets/doce.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Biscoito</h3>
+            <ul>
+                <li>Farinha de trigo</li>
+                <li>200gr de manteiga</li>
+                <li>1 xícara de açúcar</li>
+                <li>1 colher de essência de baunilha</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/biscoito.png" alt="">
         </div>
     </div>
 </div>
 
 <!-- inicio de outro -->
 
-<p class="categoria hamburguer" id="bebida">Bebida</p>
+<p class="categoria hamburguer" id="bebida" data-aos="fade-right">Bebida</p>
 
-<div class="grid-container-destaque-hamburguer">
+<div class="grid-container-destaque-hamburguer" data-aos="fade-up">
 
     <div class="grid-hamburguer">
         <div class="detalhe">
-            <h3>Hambúrguer de Frango</h3>
+            <h3>Cerveja Artesanal</h3>
             <ul>
                 <li>Pão australiano</li>
                 <li>carne 180g</li>
@@ -255,19 +276,78 @@
             </div>
         </div>
         <div>
-            <img src="assets/doce.png" alt="">
+            <img src="assets/bebida.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Drink Azul</h3>
+            <ul>
+                <li>40 ml de vodka</li>
+                <li>40 ml de curaçau blue</li>
+                <li>Laranja em rodela</li>
+                <li>1 cereja no palito</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/bebidaAzul.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Drink Laranja</h3>
+            <ul>
+                <li>50 ml de vodka</li>
+                <li>20 ml de curaçau laranja</li>
+                <li>Laranja em rodela</li>
+                <li>1 cereja no palito</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/BebidaLaranja.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Drink Vermelho</h3>
+            <ul>
+                <li>45 ml de vodka</li>
+                <li>40 ml de curaçau vermelho</li>
+                <li>Laranja em rodela</li>
+                <li>1 morango no palito</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/bebidaRed.png" alt="">
         </div>
     </div>
 </div>
+
+
 <!-- Fim bebida -->
 
-<p class="categoria hamburguer" id="batata">Batata-Frita</p>
+<p class="categoria hamburguer" id="batata" data-aos="fade-right">Batata-Frita</p>
 
-<div class="grid-container-destaque-hamburguer">
+<div class="grid-container-destaque-hamburguer" data-aos="fade-up">
 
     <div class="grid-hamburguer">
         <div class="detalhe">
-            <h3>Hambúrguer de Frango</h3>
+            <h3>Batata-Frita</h3>
             <ul>
                 <li>Pão australiano</li>
                 <li>carne 180g</li>
@@ -280,23 +360,61 @@
             </div>
         </div>
         <div>
-            <img src="assets/doce.png" alt="">
+            <img src="assets/batata.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Batata-Frita 2</h3>
+            <ul>
+                <li>Pão australiano</li>
+                <li>carne 180g</li>
+                <li>disco de catupiry empanado</li>
+                <li>salada de alface</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/batataTemperada.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid-hamburguer">
+        <div class="detalhe">
+            <h3>Batata-Frita 3</h3>
+            <ul>
+                <li>Pão australiano</li>
+                <li>carne 180g</li>
+                <li>disco de catupiry empanado</li>
+                <li>salada de alface</li>
+            </ul>
+            <div class="valor">
+                <p>R$ 35,00</p>
+                <a href="" class="carrinho"><img src="assets/shopping-cart.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <img src="assets/batataDiferente.png" alt="">
         </div>
     </div>
 </div>
 
 <!-- Fim batata -->
-<h2 class="sobre" id="sobre">Sobre</h2>
+<h2 class="sobre" id="sobre" data-aos="fade-right">Sobre</h2>
 
 <div class="sobre-div">
-    <img src="assets/restaurante.png" alt="" class="restaurante">
+    <img src="assets/restaurante.png" alt="" class="restaurante" data-aos="fade-down-right">
     <div>
-        <div class="sobre-tittle">
+        <div class="sobre-tittle" data-aos="fade-down-left">
             <h2>Food Burguer</h2>
             <img src="assets/burguer.svg" alt="">
         </div>
         
-        <p>Somos uma Rede Gourmet caseira. Trabalhamos apenas com ingredientes de primeira qualidade, alto padrão e tudo sendo feito de maneira caseira.
+        <p data-aos="fade-down-left">Somos uma Rede Gourmet caseira. Trabalhamos apenas com ingredientes de primeira qualidade, alto padrão e tudo sendo feito de maneira caseira.
 
             Na Food Burguer você tem varias opções para aproveitar seu lanche como hambúrguers, batata-frita, sobremesas e muito mais.
             
@@ -304,8 +422,8 @@
             
             A rede Food Burguer existe desde 1980 e já há 25 franquias espalhadas por todo o Brasil.</p>
 
-            <p>Valores:</p>
-            <ul>
+            <p data-aos="fade-up-left">Valores:</p>
+            <ul data-aos="fade-up-left">
                 <li>Qualidade atendimento</li>
                 <li>Qualidade no produto</li>
                 <li>Respeito</li>
@@ -314,8 +432,8 @@
     </div>
 </div>
 
-<p class="location" id="location">Localização</p>
-<p class="location-texto">R. Odilon Santos, 42 - Rio Vermelho, Salvador - BA, 41940-350</p>
+<p class="location" id="location" data-aos="zoom-in-up">Localização</p>
+<p class="location-texto" data-aos="zoom-in-down">R. Odilon Santos, 42 - Rio Vermelho, Salvador - BA, 41940-350</p>
 <div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3383767358214!2d-38.48982598463764!3d-13.014110864192048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160352f5d8fd6d%3A0xff1077e2c2424c67!2sR.%20Odilon%20Santos%2C%2042%20-%20Rio%20Vermelho%2C%20Salvador%20-%20BA%2C%2041940-350!5e0!3m2!1spt-BR!2sbr!4v1674050939061!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -337,7 +455,19 @@
     </div>
 </footer>
 
-<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- <script src="http://localhost:3002/dist/aos.js"></script> -->
+
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
 </body>
 </html>

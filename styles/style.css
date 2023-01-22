@@ -18,19 +18,23 @@
   box-sizing: content-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   animation-name: slide;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
   animation-timing-function: ease;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
   max-width: 100%;
   background-color: #F4F5F7;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 #progress{
